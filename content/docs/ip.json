@@ -1,0 +1,9 @@
+{
+  "id": "ip",
+  "name": "IP地址",
+  "desc": "获取本机网络的IP地址",
+  "path": "/api/ip",
+  "method": "GET",
+  "params": [],
+  "dataType": "text"
+}

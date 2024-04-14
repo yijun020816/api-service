@@ -1,0 +1,24 @@
+{
+  "id": "qrcode",
+  "name": "生成二维码",
+  "desc": "根据字符串生成二维码",
+  "path": "/api/qrcode",
+  "method": "GET",
+  "params": [
+    {
+      "key": "text",
+      "value": "https://yijun.fun/",
+      "type": "string",
+      "desc": "要生成二维码的字符串",
+      "required": true
+    },
+    {
+      "key": "type",
+      "value": "text",
+      "type": "string",
+      "desc": "数据格式(text,json,img)",
+      "required": false
+    }
+  ],
+  "dataType": "img"
+}
