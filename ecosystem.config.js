@@ -8,7 +8,7 @@ module.exports = {
       port: 8040,
       env: {
         NODE_ENV: 'production',
-        NUXT_PUBLIC_API_URL: process.env.NUXT_PUBLIC_API_URL,
+        NUXT_PUBLIC_API_URL: 'https://api.yijun.fun',
         REDIS_HOST: '',
         REDIS_USER: '',
         NUXT_PORT: 80,
