@@ -1,5 +1,3 @@
-const NUXT_PORT: string = process.env.NUXT_PORT ? process.env.NUXT_PORT : '3000'
-
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
@@ -54,7 +52,7 @@ export default defineNuxtConfig({
     asyncContext: true,
   },
   devServer: {
-    port: NUXT_PORT as unknown as number,
+    port: 80,
   },
   devtools: { enabled: true },
 })
