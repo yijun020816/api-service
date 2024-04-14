@@ -7,7 +7,7 @@ const props = defineProps<{
 
 const { params, path, method, dataType } = props.info
 
-const url = ref(Url(path).href)
+const url = ref(Url(path))
 
 const urlExample = ref(`${url.value}${params.length > 0 ? '?' : ''}${params.map(param => `${param.key}=${param.value}`).join('&')}`)
 
