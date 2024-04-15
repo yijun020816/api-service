@@ -1,0 +1,17 @@
+{
+  "id": "icp",
+  "name": "备案查询",
+  "desc": "查询域名备案信息",
+  "path": "/api/icp",
+  "method": "GET",
+  "params": [
+    {
+      "key": "domain",
+      "value": "qq.com",
+      "type": "string",
+      "desc": "域名",
+      "required": true
+    }
+  ],
+  "dataType": "json"
+}
