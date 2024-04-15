@@ -1,0 +1,17 @@
+{
+  "id": "qq-grade",
+  "name": "QQ会员信息查询",
+  "desc": "查询QQ会员信息",
+  "path": "/api/qq-grade",
+  "method": "GET",
+  "params": [
+    {
+      "key": "qq",
+      "value": "2242895928",
+      "type": "string",
+      "desc": "QQ号",
+      "required": true
+    }
+  ],
+  "dataType": "json"
+}
