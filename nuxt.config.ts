@@ -1,5 +1,3 @@
-import routers from './content/build/routes.json'
-
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
@@ -55,9 +53,6 @@ export default defineNuxtConfig({
         password: 'ZCpKCgKaBrkWifGdgCQGBl4Fy260CqlF',
         host: 'redis-11121.c11.us-east-1-3.ec2.cloud.redislabs.com',
       },
-    },
-    prerender: {
-      routes: ['/'],
     },
   },
   experimental: {
