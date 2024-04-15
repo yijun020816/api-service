@@ -12,7 +12,7 @@
   ],
   "scripts": {
     "build": "nuxi build",
-    "dev": "nuxi dev",
+    "dev": "node ./building.js && nuxi dev --host",
     "start": "node .output/server/index.mjs",
     "start:pm2": "pm2 start ecosystem.config.js",
     "preview": "nuxi preview",
