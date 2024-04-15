@@ -1,0 +1,17 @@
+{
+  "id": "qqinfo",
+  "name": "QQ信息查询",
+  "desc": "根据QQ号返回QQ昵称，年龄、性别等信息",
+  "path": "/api/qqinfo",
+  "method": "GET",
+  "params": [
+    {
+      "key": "qq",
+      "value": "2841159677",
+      "type": "string",
+      "desc": "QQ号",
+      "required": true
+    }
+  ],
+  "dataType": "json"
+}
