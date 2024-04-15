@@ -32,8 +32,9 @@ useHead({
 
 <template>
   <div class="mb-6">
-    <DocHeader v-bind="{ name, desc, count: count as number }" class="mb-4" />
-    <DocInfo :info="data!" class="mb-6" />
+    <DocHeader v-bind="{ name, desc, count: [undefined, null].includes(count as any) ? 0 : count as number }" class="mb-4" />
+    <DocInfo :info="data!" />
     <DocPagination v-bind="{ prev, next }" class="mt-2" />
+    <!-- <DocTest /> -->
   </div>
 </template>
