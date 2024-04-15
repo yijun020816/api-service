@@ -13,5 +13,5 @@
       "required": false
     }
   ],
-  "dataType": "text"
+  "dataType": "json"
 }
