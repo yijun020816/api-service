@@ -51,11 +51,14 @@ function handleCopy() {
 <template>
   <div class="py-1 flex flex-col gap-3 text-sm font-sans">
     <div class=" gap-2 flex items-center">
-      <span class="min-w-[4em]">接口地址</span>
+      <span class="min-w-[4em]">请求方式</span>
       <UBadge :color="method === 'GET' ? 'green' : 'blue'" size="md">
         {{ method }}
       </UBadge>
-      <UBadge color="cyan" size="md" class="cursor-pointer" @click="handleCopy">
+    </div>
+    <div class=" gap-2 flex items-center">
+      <span class="min-w-[4em]">接口地址</span>
+      <UBadge color="blue" size="md" class="cursor-pointer" @click="handleCopy">
         {{ url }}
       </UBadge>
     </div>
