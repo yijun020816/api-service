@@ -10,13 +10,12 @@
 
 <p align="center">
 <br>
-<a href="https://api.kuizuo.cn">🖥 Online Preview</a>
+<a href="https://service.yijun.fun/">🖥 Online Preview</a>
 <br><br>
 <a href="https://stackblitz.com/github/kuizuo/api-service"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
 </p>
-
 <p align="center">
-  <a href="https://github.com/kuizuo/api-service"><img alt="size" src="https://img.shields.io/github/stars/kuizuo/api-service?style=flat"></a>
+  <a href="https://github.com/yijun020816/api-service"><img alt="size" src="https://img.shields.io/github/stars/yijun020816/api-service?style=flat"></a>
   <a href="https://www.npmjs.com/package/nuxt/v/rc"><img alt="size" src="https://img.shields.io/github/package-json/dependency-version/kuizuo/api-service/dev/nuxt?style=flat&colorA=002438&colorB=28CF8D"></a>
   <a href="https://github.com/kuizuo/api-service/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/workflow/status/kuizuo/api-service/ci?label=ci&logo=github"></a>
   <a href="https://github.com/kuizuo/api-service/tree/HEAD/LICENSE"><img alt="License" src="https://img.shields.io/github/license/kuizuo/api-service?style=flat&colorA=002438&colorB=28CF8D" /></a>
@@ -24,7 +23,7 @@
 
 ## Preview
 
-![API-Service](https://img.kuizuo.cn/KZ%20API.png)
+![API-Service](https://service.yijun.fun/Preview.png)
 
 ## Features
 
@@ -37,8 +36,8 @@
 
 ## Usage
 
-```
-git clone https://github.com/kuizuo/api-service
+```shell
+git clone https://github.com/yijun020816/api-service
 cd api-service
 pnpm i
 ```
@@ -70,7 +69,7 @@ module.exports = {
       instances: '1',
       PORT: 8040,
       env: {
-        NUXT_PUBLIC_API_URL: 'https://api.kuizuo.cn',
+        NUXT_PUBLIC_API_URL: 'https://service.yijun.fun/',
       },
       script: './.output/server/index.mjs',
     },
