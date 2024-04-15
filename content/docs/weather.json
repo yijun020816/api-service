@@ -1,17 +1,9 @@
 {
   "id": "weather",
   "name": "今日天气",
-  "desc": "获取今日天气,可指定城市",
+  "desc": "获取当前城市今日天气",
   "path": "/api/weather",
   "method": "GET",
-  "params": [
-    {
-      "key": "city",
-      "value": "beijing",
-      "type": "string",
-      "desc": "城市编码（支持编码、拼音、汉字查询）",
-      "required": true
-    }
-  ],
+  "params": [],
   "dataType": "json"
 }
