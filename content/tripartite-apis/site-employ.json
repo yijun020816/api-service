@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-site-employ",
+    "name": "域名收录/反链查询",
+    "desc": "查询域名的SEO收录与反链信息",
+    "path": "/api/oiowebApi/site-employ",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "domain",
+            "type": "string",
+            "value": "blog.oioweb.cn",
+            "desc": "域名，不要带协议",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

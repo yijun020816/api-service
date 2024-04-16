@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-site-reg",
+    "name": "域名注册查询",
+    "desc": "查询域名是否注册",
+    "path": "/api/oiowebApi/site-reg",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "domain",
+            "type": "string",
+            "value": "oioweb.cn",
+            "desc": "域名host",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

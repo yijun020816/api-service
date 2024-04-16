@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-search-harassPhone",
+    "name": "骚扰号码查询",
+    "desc": "数据来自360手机安全中心",
+    "path": "/api/oiowebApi/search-harassPhone",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "phone",
+            "type": "number",
+            "value": "0574967966",
+            "desc": "预查询的手机号码",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

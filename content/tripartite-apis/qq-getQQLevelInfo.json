@@ -1,0 +1,17 @@
+{
+  "id": "oiowebApi-qq-getQQLevelInfo",
+  "name": "QQ会员信息查询",
+  "desc": "查询QQ会员信息",
+  "path": "/api/oiowebApi/qq-getQQLevelInfo",
+  "method": "GET/POST",
+  "params": [
+    {
+      "key": "qq",
+      "type": "number",
+      "value": "599928887",
+      "desc": "QQ号",
+      "required": true
+    }
+  ],
+  "dataType": "JSON"
+}

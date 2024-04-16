@@ -7,14 +7,15 @@ interface Doc extends IApi.Doc {
 const route = useRoute()
 const id = (route.params as { id: string }).id
 
-const { data } = await useAsyncData<Doc>(`content-${id}`, () => queryContent<Doc>('docs').where({ id: { $eq: id } }).findOne(), { server: true })
-const { data: count } = await useFetch(`/api/count?id=${id}`)
+const { data } = await useAsyncData<Doc>(`content-${id}`, () => queryContent<Doc>(id.includes('oiowebApi-') ? 'tripartite-apis' : 'docs').where({ id: { $eq: id } }).findOne(), { server: true })
+const { data: count } = await useFetch(`/api/core/count?id=${id}`)
 const { name, desc, _path } = data.value!
 
 const { data: pageInfo } = await useAsyncData<[Doc, Doc]>(
   `${id}-findSurround`,
   async () => {
     const [prev, next] = await queryContent<Doc>().findSurround(_path)
+    console.log(prev)
     return [prev, next]
   },
   { server: true },

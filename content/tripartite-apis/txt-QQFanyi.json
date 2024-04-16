@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-txt-QQFanyi",
+    "name": "QQ翻译",
+    "desc": "QQ官方翻译接口",
+    "path": "/api/oiowebApi/txt-QQFanyi",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "sourceText",
+            "type": "string",
+            "value": "Who are you?",
+            "desc": "翻译文字",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

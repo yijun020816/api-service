@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-search-getOlyMedals",
+    "name": "奥运会排行榜",
+    "desc": "官方奥运会排行榜数据",
+    "path": "/api/oiowebApi/search-getOlyMedals",
+    "method": "GET/POST",
+    "params": [],
+    "dataType": "JSON"
+}

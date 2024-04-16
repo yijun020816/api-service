@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-common-yiyan",
+    "name": "每日一言",
+    "desc": "一天之计在于晨，早安！",
+    "path": "/api/oiowebApi/common-yiyan",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

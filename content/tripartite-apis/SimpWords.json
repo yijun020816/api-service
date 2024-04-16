@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-SimpWords",
+    "name": "舔狗日记",
+    "desc": "今天给女神发信息了吗",
+    "path": "/api/oiowebApi/SimpWords",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

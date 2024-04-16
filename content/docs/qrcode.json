@@ -20,5 +20,5 @@
       "required": false
     }
   ],
-  "dataType": "imgBase64"
+  "dataType": "img"
 }

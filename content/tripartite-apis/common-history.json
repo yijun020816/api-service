@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-common-history",
+    "name": "历史上的今天",
+    "desc": "历史上的今天都发生了哪些大事",
+    "path": "/api/oiowebApi/common-history",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

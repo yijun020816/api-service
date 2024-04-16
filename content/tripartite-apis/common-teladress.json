@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-common-teladress",
+    "name": "手机号归属地查询",
+    "desc": "查询手机号归属地信息",
+    "path": "/api/oiowebApi/common-teladress",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "mobile",
+            "type": "number",
+            "value": "10086",
+            "desc": "手机号",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

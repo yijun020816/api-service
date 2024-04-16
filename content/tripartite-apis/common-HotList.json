@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-common-HotList",
+    "name": "全网热搜榜",
+    "desc": "支持60多个平台的热搜榜信息",
+    "path": "/api/oiowebApi/common-HotList",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

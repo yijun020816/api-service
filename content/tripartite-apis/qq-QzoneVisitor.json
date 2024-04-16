@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-qq-QzoneVisitor",
+    "name": "QQ空间访客查询",
+    "desc": "查询总访客、今日访客信息",
+    "path": "/api/oiowebApi/qq-QzoneVisitor",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "qq",
+            "type": "number",
+            "value": "599928887",
+            "desc": "QQ号",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

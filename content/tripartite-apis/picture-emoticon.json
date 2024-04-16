@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-picture-emoticon",
+    "name": "表情包搜索",
+    "desc": "再也不会缺图了",
+    "path": "/api/oiowebApi/picture-emoticon",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "keyword",
+            "type": "string",
+            "value": "蔡徐坤",
+            "desc": "关键词",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

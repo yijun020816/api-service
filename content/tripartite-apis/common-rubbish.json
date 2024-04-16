@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-common-rubbish",
+    "name": "垃圾分类",
+    "desc": "查询垃圾分类信息",
+    "path": "/api/oiowebApi/common-rubbish",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "name",
+            "type": "string",
+            "value": "香蕉",
+            "desc": "垃圾名称",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-txt-dict",
+    "name": "字典",
+    "desc": "字典词义查询",
+    "path": "/api/oiowebApi/txt-dict",
+    "method": "GET",
+    "params": [
+        {
+            "key": "text",
+            "type": "string",
+            "value": "棒",
+            "desc": "查询内容",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

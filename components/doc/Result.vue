@@ -52,13 +52,14 @@ onUpdated(() => {
         <USkeleton class="h-12 w-full" />
       </div>
       <div v-else class="group relative overflow-x-auto">
-        <template v-if="dataType === 'json'">
+        <template v-if="dataType === 'JSON'">
           <pre
             class="language-json min-h-[10rem] max-h-[30rem] text-sm h-full"
           ><code class="!bg-transparent w-full">{{ response }}</code></pre>
         </template>
         <template v-else-if="dataType === 'img'">
-          <img :src="url">
+          <!-- {{ url }} -->
+          <img :src="response as string">
         </template>
         <template v-else>
           <div class="min-h-[20px] p-4 h-full font-sans text-base">

@@ -1,5 +1,5 @@
 declare namespace IApi {
-  type DataType = 'text' | 'json' | 'img'
+  type DataType = 'text' | 'JSON' | 'img'
   type Method = 'GET' | 'POST' | 'PUT' | 'DELETE'
 
   interface Param {

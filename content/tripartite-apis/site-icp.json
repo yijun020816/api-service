@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-site-icp",
+    "name": "备案查询",
+    "desc": "查询域名备案信息",
+    "path": "/api/oiowebApi/site-icp",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "domain",
+            "type": "string",
+            "value": "qq.com",
+            "desc": "查询的域名",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

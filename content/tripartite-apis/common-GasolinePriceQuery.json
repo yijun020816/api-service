@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-common-GasolinePriceQuery",
+    "name": "全国油价查询",
+    "desc": "全国油价信息查询",
+    "path": "/api/oiowebApi/common-GasolinePriceQuery",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

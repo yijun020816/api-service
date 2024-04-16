@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-qq-info",
+    "name": "QQ信息查询",
+    "desc": "根据QQ号返回QQ昵称，QQ等级等信息",
+    "path": "/api/oiowebApi/qq-info",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "qq",
+            "type": "number",
+            "value": "599928887",
+            "desc": "QQ号",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

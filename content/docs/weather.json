@@ -1,9 +1,0 @@
-{
-  "id": "weather",
-  "name": "今日天气",
-  "desc": "获取当前城市今日天气",
-  "path": "/api/weather",
-  "method": "GET",
-  "params": [],
-  "dataType": "json"
-}

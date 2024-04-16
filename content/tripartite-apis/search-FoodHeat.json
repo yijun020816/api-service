@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-search-FoodHeat",
+    "name": "食物营养查询",
+    "desc": "食物营养查询，吃适合的食物",
+    "path": "/api/oiowebApi/search-FoodHeat",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "keyword",
+            "type": "string",
+            "value": "香蕉",
+            "desc": "食物名字",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

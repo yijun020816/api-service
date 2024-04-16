@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-bing",
+    "name": "Bing每日一图",
+    "desc": "返回必应每日一图的最近7张图",
+    "path": "/api/oiowebApi/bing",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

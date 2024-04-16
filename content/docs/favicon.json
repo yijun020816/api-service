@@ -1,23 +1,16 @@
 {
   "id": "favicon",
-  "name": "网站favicon图标",
-  "desc": "获取网站favicon图标地址",
+  "name": "favicon.ico图标获取",
+  "desc": "获取网站的favicon.ico",
   "path": "/api/favicon",
   "method": "GET",
   "params": [
     {
       "key": "website",
+      "type": "string",
       "value": "https://yijun.fun/",
-      "type": "string",
-      "desc": "网址完整地址",
+      "desc": "网站",
       "required": true
-    },
-    {
-      "key": "type",
-      "value": "img",
-      "type": "string",
-      "desc": "数据格式(text,json,img)",
-      "required": false
     }
   ],
   "dataType": "img"

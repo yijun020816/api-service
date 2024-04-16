@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-ip-geocoder",
+    "name": "经纬度信息查询",
+    "desc": "查询经纬线详细信息",
+    "path": "/api/oiowebApi/ip-geocoder",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "lng",
+            "type": "string",
+            "value": "111.67739",
+            "desc": "经度",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

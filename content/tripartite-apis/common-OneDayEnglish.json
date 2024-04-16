@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-common-OneDayEnglish",
+    "name": "每日一句英文",
+    "desc": "每日一句英文，新的一天行动起来吧",
+    "path": "/api/oiowebApi/common-OneDayEnglish",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

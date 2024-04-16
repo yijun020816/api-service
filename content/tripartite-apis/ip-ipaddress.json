@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-ip-ipaddress",
+    "name": "IP地址查询",
+    "desc": "IP地址信息查询，支持IPV4、IPV6地址",
+    "path": "/api/oiowebApi/ip-ipaddress",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "ip",
+            "type": "string",
+            "value": "114.114.114.114",
+            "desc": "支持IPV4/IPV6地址",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

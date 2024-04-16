@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-site-whois",
+    "name": "域名whois查询",
+    "desc": "查询域名whois信息",
+    "path": "/api/oiowebApi/site-whois",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "domain",
+            "type": "string",
+            "value": "baidu.com",
+            "desc": "查询的域名，不可带协议",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

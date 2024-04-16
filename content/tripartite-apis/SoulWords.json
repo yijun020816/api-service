@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-SoulWords",
+    "name": "毒鸡汤",
+    "desc": "每日emo",
+    "path": "/api/oiowebApi/SoulWords",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

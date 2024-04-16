@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-weather-weather",
+    "name": "天气查询-自定义地区",
+    "desc": "自定义地区天气信息查询",
+    "path": "/api/oiowebApi/weather-weather",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "city_name",
+            "type": "string",
+            "value": "郑州市",
+            "desc": "市",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

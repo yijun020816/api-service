@@ -1,9 +1,0 @@
-{
-  "id": "SimpWords",
-  "name": "舔狗日记",
-  "desc": "今天给女神发信息了吗",
-  "path": "/api/SimpWords",
-  "method": "GET",
-  "params": [],
-  "dataType": "json"
-}

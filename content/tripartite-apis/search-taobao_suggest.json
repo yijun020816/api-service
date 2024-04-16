@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-search-taobao_suggest",
+    "name": "淘宝下拉词查询",
+    "desc": "查询淘宝关键词的下拉词",
+    "path": "/api/oiowebApi/search-taobao_suggest",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "keyword",
+            "type": "string",
+            "value": "男士内裤",
+            "desc": "关键词",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

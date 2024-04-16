@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-common-delivery",
+    "name": "快递查询",
+    "desc": "查询快递物流信息",
+    "path": "/api/oiowebApi/common-delivery",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "nu",
+            "type": "string",
+            "value": "123456",
+            "desc": "快递单号",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

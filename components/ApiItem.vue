@@ -1,10 +1,13 @@
 <script lang="ts" setup>
+import thirdParty from '~/assets/imgs/thirdParty.svg'
+
 const props = withDefaults(defineProps<{
   id: string | number
   name: string
   desc: string
   count: number
   index: number
+  path: string
 }>(), {
   count: 0,
 })
@@ -29,10 +32,11 @@ const color = computed(() => colors[props.index % colors.length])
 
 <template>
   <div
-    :class="`group py-3 px-4 h-30 border rounded-lg border-transparent
-    flex flex-col transition duration-200 shadow-md shadow-${color}-500/20 ring-${color}-500
-    hover:ring-2 hover:bg-${color}-500 hover:bg-opacity-10`"
+    :class="`group py-3 px-4 h-30 border rounded-lg border-transparent bg-white
+    flex flex-col transition duration-200 ring-${color}-500 relative dark:bg-gray-800
+    hover:ring-2 hover:bg-${color}-500 hover:bg-opacity-1`"
   >
+    <img v-if="path.indexOf('oiowebApi') !== -1" :src="thirdParty" class="h-8 absolute right-0 top-0">
     <div class="flex flex-row justify-between items-center">
       <h3 class="text-xl text-left">
         <NuxtLink :to="href" class="font-sans font-extrabold transition" :class="`text-${color}-500`">

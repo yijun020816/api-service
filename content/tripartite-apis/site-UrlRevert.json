@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-site-UrlRevert",
+    "name": "万能短网址还原",
+    "desc": "支持所有短网址还原真实网址",
+    "path": "/api/oiowebApi/site-UrlRevert",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "url",
+            "type": "string",
+            "value": "https://url.cn/59WAm1B",
+            "desc": "短网址",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

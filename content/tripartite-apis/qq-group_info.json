@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-qq-group_info",
+    "name": "QQ群信息查询",
+    "desc": "查询QQ群信息",
+    "path": "/api/oiowebApi/qq-group_info",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "group",
+            "type": "number",
+            "value": "611987360",
+            "desc": "QQ群号",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-common-OneFilm",
+    "name": "每日一部电影推荐",
+    "desc": "每日推荐一部电影",
+    "path": "/api/oiowebApi/common-OneFilm",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

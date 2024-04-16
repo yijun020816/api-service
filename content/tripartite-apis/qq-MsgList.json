@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-qq-MsgList",
+    "name": "空间说说获取",
+    "desc": "获取空间说说信息",
+    "path": "/api/oiowebApi/qq-MsgList",
+    "method": "GET",
+    "params": [
+        {
+            "key": "qq",
+            "type": "number",
+            "value": "599928887",
+            "desc": "QQ号",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

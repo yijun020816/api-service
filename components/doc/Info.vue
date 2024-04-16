@@ -14,7 +14,7 @@ const urlExample = ref(`${url.value}${params.length > 0 ? '?' : ''}${params.map(
 const dataTypeMap = {
   img: '图片',
   text: '文本',
-  json: 'JSON',
+  JSON: 'JSON',
 }
 
 const columns = [{

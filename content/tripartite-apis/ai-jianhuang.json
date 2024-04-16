@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-ai-jianhuang",
+    "name": "AI鉴黄",
+    "desc": "对图片内容进行鉴黄识别",
+    "path": "/api/oiowebApi/ai-jianhuang",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "url",
+            "type": "string",
+            "value": "https://cn.bing.com/th?id=OHR.ArizonaPinkMoon_ZH-CN5545607389_1920x1080.jpg",
+            "desc": "图片URL地址",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

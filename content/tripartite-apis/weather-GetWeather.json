@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-weather-GetWeather",
+    "name": "天气信息查询",
+    "desc": "查询当地天气信息以及未来天气",
+    "path": "/api/oiowebApi/weather-GetWeather",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

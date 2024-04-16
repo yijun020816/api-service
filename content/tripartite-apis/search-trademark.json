@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-search-trademark",
+    "name": "商标信息查询",
+    "desc": "包括企业商标注册信息、商标logo,商标类别等信息查询",
+    "path": "/api/oiowebApi/search-trademark",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "keyword",
+            "type": "string",
+            "value": "秘语熊",
+            "desc": "商标名字",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}

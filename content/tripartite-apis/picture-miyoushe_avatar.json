@@ -1,0 +1,9 @@
+{
+    "id": "oiowebApi-picture-miyoushe_avatar",
+    "name": "米游社随机头像",
+    "desc": "米游社随机头像",
+    "path": "/api/oiowebApi/picture-miyoushe_avatar",
+    "method": "GET",
+    "params": [],
+    "dataType": "JSON"
+}

@@ -1,0 +1,17 @@
+{
+    "id": "oiowebApi-site-waylay",
+    "name": "域名拦截查询",
+    "desc": "检查域名在QQ微信是否正常访问",
+    "path": "/api/oiowebApi/site-waylay",
+    "method": "GET/POST",
+    "params": [
+        {
+            "key": "url",
+            "type": "string",
+            "value": "https://www.baidu.com",
+            "desc": "域名",
+            "required": true
+        }
+    ],
+    "dataType": "JSON"
+}
